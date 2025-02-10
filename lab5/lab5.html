@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5, CSS</title>
+    <style>
+        h1.title{color:crimson; background-color: black; font-family: algerian;}
+        h1{text-align: center;}
+        p{color: green;}
+        p.info{color:gray; text-align: right; font-family: cambria; font-style: italic; }
+        body{background-color: lightcyan;}
+        p.msg{font-family: "arial black";}
+        p#parag{font-weight: bolder; color: blue;}
+        .qcc2{font-size: 250%;} 
+        .qcc3{font-size: 3rem;} 
+        .name1, .name2, .name3, .name4, .name5, .name6{font-size: 50px; text-align: center;}
+        .name1{text-shadow: 10px 0px 5px red;}
+        .name2{text-shadow: 0px -10px 5px red;}
+        .name3{text-shadow: -10px 10px 5px red;} /*shadow to the bottom-left by 10px*/
+        .name4{text-shadow: 10px -10px 5px red;} /*shadow to the top-right by 10px*/
+        .name5{text-shadow: 10px -10px 20px red;} /*shadow to the top-right by 10px*/
+        .name6{text-shadow: 0px 0px 5px 3px red;} /*high-light around the text*/
+        .square1, .square2, .square3{height: 200px; width: 200px; background-color: black; color:aqua;}
+        .square1{border: yellow 30px groove; margin-left: 100px; padding-top: 50px;}
+        .square2{border: dotted 20px purple; margin: 50px 200px; padding: 20px;}
+        .square3{border: 30px inset lightcoral; margin: 20px auto; padding: 20px 50px;}
+        .rose1, .rose2, .rose3, .rose4{width: 300px; height: 200px;}
+    </style>
+</head>
+<body>
+    <h1>Cascading Style Sheet, CSS</h1>
+    <h1 class="title">Dogs</h1>
+    <p class="msg">The domestic dog is a member of the genus Canis (canines), which forms part of the wolf-like canids</p>
+    <p class="info">Information retrieved from wikipedia.org</p>
+    <p id="parag">Applying font weight</p>
+    <p class="qcc1">Queensborough Community College</p>
+    <p class="qcc2">Queensborough Community College</p>
+    <p class="qcc3">Queensborough Community College</p>
+    <h2>Text shadow</h2>
+    <p class="name1">Prof. Wu</p>
+    <p class="name2">Prof. Wu</p>
+    <p class="name3">Prof. Wu</p>
+    <p class="name4">Prof. Wu</p>
+    <p class="name5">Prof. Wu</p>
+    <p class="name6">Prof. Wu</p>
+    <h2>Border, margin, padding</h2>
+    <div class="square1">The domestic dog is a member of the genus Canis (canines), which forms part of the wolf-like canids</div>
+    <div class="square2">The domestic dog is a member of the genus Canis (canines), which forms part of the wolf-like canids</div>
+    <div class="square3">The domestic dog is a member of the genus Canis (canines), which forms part of the wolf-like canids</div>
+    <h1>Lab Exercise</h1>
+    <h1 class="labtitle">Roses</h1>
+    <p class="description">Roses come in different colors.. bla bla</p>
+    <figure>
+        <img class="rose1" src="images/orangeroses.jpg" alt="image of orange rose">
+        <img class="rose2" src="images/redrose.jpg" alt="image of a red rose">
+        <img class="rose3" src="images/roses.jpg" alt="image of roses of different colors">
+        <img class="rose4" src="images/whiteroses.jpg" alt="image of a white rose">
+    </figure>
+</body>
+</html>
