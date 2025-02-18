@@ -1,0 +1,91 @@
+h1.title{
+    text-align: center;
+    color:crimson;
+    padding: 1em;
+    border-bottom: dashed gray 2px;
+}
+.box1, .box2, .box3{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    padding: 2em;
+    border: solid 1px gray;
+    margin: 3em auto;
+}
+.box1{
+    box-shadow: -10px 10px 15px orangered ;
+    border-radius: 20px;
+}
+.box2{
+    box-shadow: -10px 10px 15px orangered inset;
+    border-radius: 50%;
+}
+.box3{
+    box-shadow: 0px 0px 15px 5px orangered;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.header{
+    width: 1000px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 1em;
+    text-align: center;
+}
+.navlinks{
+    width: 1000px;
+    padding: 1em;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    background-color: darkblue;
+}
+.maincontainer{
+    width: 1000px;
+    height: 500px;
+    margin: 2em auto;
+    box-shadow: 5px 5px 10px gray;
+}
+.leftblock{
+    width: 700px;
+    height: 300px;
+    border: solid gray 1px;
+    float: left;
+}
+.rightblock{
+    width: 297px;
+    height: 300px;
+    border: 1px solid black;
+    float: right;
+}
+.infosection, .newsarticle{
+    height: 150px;
+}
+.infosection{
+    background-color: chartreuse;
+}
+.newsarticle{
+    background-color:deepskyblue;
+}
+.images{
+    height: 200px;
+    background-color: crimson;
+    float: left;
+    width: 100%;
+}
+.footer{
+    width: 1000px;
+    margin: auto;
+    height: 100px;
+    background-color: lightgray;
+}
+.liquidheader, .liquidnav,.liquidcontainer, .liquidfooter{
+    width: 80%;
+}
+.liquidleftblock{
+    width: 70%;
+}
+.liquidright{
+    width: 29%;
+}
